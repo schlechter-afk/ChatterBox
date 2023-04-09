@@ -2,3 +2,5 @@ backend/* linguist-documentation=false
 backend/* linguist-vendored
 frontend/* linguist-documentation=false
 frontend/* linguist-vendored
+nginx/* linguist-documentation=false
+nginx/* linguist-vendored
