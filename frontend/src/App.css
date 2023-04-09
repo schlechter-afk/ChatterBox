@@ -1,0 +1,376 @@
+.reddit_style {
+    background-size: "cover";
+    background-color:moccasin;
+    height: 100vh;
+    background-repeat:no-repeat; 
+}
+  
+.login_style {
+      background-size: "cover";
+      background-color:snow;
+      height: 100vh;
+      width: 10;
+      max-width: 600px;
+      background-repeat:no-repeat; 
+      border-radius: 100px;
+}
+
+.login_id {
+  font-size: 50px;
+  font-style:italic;
+  text-decoration: underline;
+  color: red;
+  text-align: center;
+}
+
+.agreement{
+  font-size: 25px;
+  color:royalblue;
+  font-style: italic;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif,cursive;
+}
+
+.home_style {
+  margin-top: 230px;
+  color: blue;
+  text-align: center;
+} 
+
+.home_style_bg {
+  background-image: url("./pages/im4.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 93vh;
+  position: static;
+  overflow: hidden;
+  /* background-repeat:no-repeat;  */
+} 
+
+.bgrepeatlog {
+  background-image: url("./pages/im4.jpg");
+  /* background-color: black; */
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: static;
+  overflow: hidden;
+  /* background-repeat:no-repeat;  */
+} 
+
+.subon1 {
+  margin-top: 10px;
+  margin-left: 800px;
+  /* margin-right: 50px; */
+}
+
+.subonmod1 {
+  font-size: 30px;
+  background-color: blue;
+}
+
+.subon {
+  margin-top: 10px;
+  margin-left: 80px;
+  /* margin-right: 50px; */
+}
+
+.subonmod {
+  margin-top: 40px;
+  margin-left: 80px;
+  font-size: 50px;
+  /* margin-right: 50px; */
+}
+
+/* .search {
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+} */
+
+.search label {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Pacifico',cursive;
+  text-transform: uppercase;
+  margin-bottom: .2em;
+  margin-top: 2%;
+  margin-left: 48%;
+}
+
+.chkbox {
+  margin-left: 50%;
+}
+
+.search input {
+  width: 50%;
+  margin-left: 30%;
+  font-size: 1em;
+  background: none;
+  padding: .8em 1em;
+  border: solid 3px #5F4B8B;
+  outline: none;
+  border-radius: .4em;
+}
+
+.divhover {
+  cursor: pointer;
+}
+
+.search input:focus {
+  border: solid 3px #5e1dec;
+  box-shadow: 0 0 6px #5e1dec;
+}
+
+.bgrepeatlogsubreddit {
+  /* background-image: url("./pages/im4.jpg"); */
+  background-color: skyblue;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  /* height: 500vh; */
+  position: static;
+  overflow: hidden;
+  /* background-repeat:no-repeat;  */
+} 
+
+.allpagesub {
+  /* background-image: url("./pages/im4.jpg"); */
+  background-color: skyblue;
+  background-position: center;
+  background-size: cover;
+  width: 80%;
+  margin-top: 0%;
+  margin-left: 20%;
+  /* height: 500vh; */
+  position: static;
+  overflow: hidden;
+  /* background-repeat:no-repeat;  */
+} 
+
+.inputform{
+  font-size: 20px;
+  font-family: 'Pacifico' ,cursive ;
+  color: black;
+}
+
+.dashboard_style {
+  background-size: "cover";
+  background-color:white;
+  background-image: url("./pages/im4.jpg");
+  height: 100vh;
+  background-repeat:no-repeat; 
+} 
+
+
+.dashboard_style_stats {
+  background-size: "cover";
+  background-color:white;
+  height: 300vh;
+  background-repeat:no-repeat; 
+} 
+
+.containerpage {
+  display: flex;
+  width: 100%;
+  /* height: 100vh; */
+}
+
+.left-section {
+  flex: 1;
+  color: white;
+  width: 20%;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px;
+}
+
+.right-section {
+  flex: 4;
+  color: black;
+  width: 80%;
+  text-align: center;
+  font-size: 20px;
+  padding: 50px;
+}
+
+.editable_style {
+  /* text-align: center; */
+  font-size: 30px; 
+} 
+
+.intro_style {
+  text-align: center;
+  font-size: 50px; 
+  font-style: italic;
+  font-family: 'Pacifico' ,cursive ;
+  text-decoration: underline;
+} 
+
+.updatebtn {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 30px;
+  background-color: skyblue;
+  font-family: 'Pacifico' ,cursive ;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.followers {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 400px;
+  background-color: skyblue;
+  font-family: 'Pacifico' ,cursive ;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.following {
+  text-align: center;
+  margin-left: 200px;
+  margin-top: 400px;
+  background-color: skyblue;
+  font-family: 'Pacifico' ,cursive ;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.inputformtext{
+  box-sizing: border-box;
+  height: 30px;
+  width: 326px;
+  border: 1px solid blue;
+  border-radius: 20px;
+  color: #333333;
+  font-family: 'Pacifico' ,cursive ;
+  font-size: 18px;
+}
+
+.app {
+  padding: 30px;
+  background-color: floralwhite;
+}
+
+.todo {
+  align-items: center;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+}
+
+.top2 {
+  display: flex;
+}
+
+.top3 {
+  display: flex;
+}
+
+.top4 {
+  display: flex;
+}
+
+.top5 {
+  display: flex;
+}
+
+.top6 {
+  display: flex;
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-title {
+  cursor: pointer;
+}
+
+.dropdown-toggles {
+  font-family: Pacifico;
+  color: black;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.followdrop {
+  padding-right: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content .dropdown-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background-color: skyblue;
+}
+
+.dropdown-container:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  font-size: 14px;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, .15);
+  border-radius: 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+
+.dropcl{
+  margin-top: 300px;
+  margin-left: 60px;
+  display:flex;
+  height: 100px;
+  width: 100px;
+  background-color: "yellow";
+  padding: "10px";
+  font-family: "Arial";
+  color: "black";
+  border-radius: "35px";
+  border-color: black;
+}
