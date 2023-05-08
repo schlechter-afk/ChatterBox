@@ -9,6 +9,9 @@ Course : Design and Analysis of Software Systems, Monsoon'22
 OS:Linux
 ```
 
+1. Containerized application using Docker.
+2. Nginx as the web server to host the application within the Docker container.
+
 # *Login and Registration*
 
 Once the user signs up on the sign-up form, he is asked to login.
